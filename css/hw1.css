@@ -1,0 +1,96 @@
+header{
+	background-image: url("flywheel.jpg");
+	background-color: #a09d9d;
+	padding: 3%;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+h2{
+	color:#000000;
+}
+section{
+	background-color: #ffffff,;
+	display: inline-block;
+	float: left;
+	font-size: 20px;
+}
+a{
+	background-color: #9E9E9E; 
+	color: #000000;
+}
+
+body{
+	padding: 1%;
+	margin: 1%;
+
+}
+nav a{
+	margin: 1%;
+	border-radius: 25px;
+	text-decoration: none;
+	padding: 1%;
+	background-color:#ffffff; 
+	opacity: 0.5;
+}
+.active{
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.left{
+	width:23%;
+	float: left;
+	display:inline-block;
+	background-color: #abce6e;
+	padding: 1%;
+	margin: 0 auto;
+}
+.right{
+	width: 70%;
+	display: inline-block;
+	padding-left: 1%;
+}
+.left img{
+	border: 2px solid #000000;
+	width:80%;
+	display: block;
+	margin: 10%;
+}
+table{
+	
+	border: 2px solid #000000;
+	box-sizing: border-box;
+	margin-left: 50px;
+	
+	
+	color: #000000;
+}
+th{
+	background-color: #000000;
+	border-bottom: 3px solid #000000;
+	border-radius: 5px 5px 0px 0px;
+	margin-bottom: 2px;
+	color: #ffffff;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+	
+td{
+	text-align: center;
+	padding: 1%;
+	font-size: 15px;
+	box-sizing: border-box;
+	
+}
+td:first-child{
+text-align: left;
+}
+tr{
+	background-color: #abce6e;
+	opacity: 0.6;
+}
+tr:hover{
+	opacity: 1;
+}
